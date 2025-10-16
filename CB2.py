@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Simple Command App")
+st.title("Simple Chatbot")
 
 st.session_state.messages = []
 
@@ -17,3 +17,4 @@ if st.button("Run Command"):
 st.subheader("Output:")
 for msg in st.session_state.messages:
     st.text(msg)
+
